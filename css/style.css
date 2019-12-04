@@ -1,0 +1,94 @@
+#navSection {
+  box-shadow: 2px 2px 5px white;
+  opacity: .9; }
+
+#homeSection {
+  background-image: url(../img/pexels-photo-374720.jpeg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px; }
+  #homeSection .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 600px; }
+
+#servicesSection {
+  background: tomato; }
+  #servicesSection .card {
+    min-height: 315px;
+    background: transparent;
+    border: none; }
+
+#teamSection {
+  background-image: url(../img/pexels-photo-3184638.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px; }
+  #teamSection .dark-overlay {
+    background: rgba(245, 245, 245, 0.9);
+    min-height: 600px; }
+  #teamSection .card {
+    background: transparent;
+    border: none; }
+    #teamSection .card .fab {
+      font-size: 20px;
+      color: white;
+      background: gray;
+      border-radius: 50%;
+      padding: 8px;
+      width: 37px;
+      transition: all .7s; }
+    #teamSection .card .fab:hover {
+      background: white;
+      color: gray;
+      transform: rotate(360deg); }
+
+#skillSection {
+  background-image: url(../img/pexels-photo-669619.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px; }
+  #skillSection .dark-overlay {
+    background: thistle;
+    min-height: 500px; }
+  #skillSection .radial-progress circle {
+    stroke-width: 8; }
+  #skillSection .web-design circle {
+    stroke: dodgerblue; }
+  #skillSection .grapics-design circle {
+    stroke: blueviolet; }
+  #skillSection .html-css circle {
+    stroke: wheat; }
+  #skillSection .ui-ux circle {
+    stroke: tomato; }
+
+#portfolioSection .btn {
+  width: 70px; }
+
+#testimonialSection {
+  background-image: url(../img/pexels-photo-109919.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 600px; }
+  #testimonialSection .dark-overlay {
+    background: rgba(245, 245, 245, 0.9);
+    min-height: 600px; }
+
+#footerSection .fab {
+  font-size: 20px;
+  color: white;
+  background: gray;
+  border-radius: 50%;
+  padding: 8px;
+  width: 37px;
+  transition: all .7s; }
+
+#footerSection .fab:hover {
+  background: white;
+  color: gray;
+  transform: rotate(360deg); }
